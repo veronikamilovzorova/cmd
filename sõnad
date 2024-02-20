@@ -26,3 +26,131 @@ nool - стрелка
 joon - линия
 algussõlm - начальный узел
 ovaal - овал
+
+
+
+C:\Users\opilane>cd desktop
+
+C:\Users\opilane\Desktop>git config -global user.name "Veronika Milovzorova"
+error: did you mean `--global` (with two dashes)?
+
+C:\Users\opilane\Desktop>git config  --global user.name "Veronika Milovzorova"
+
+C:\Users\opilane\Desktop>git config  --global user.email "veronika.milovzorova@gmail.com"
+
+C:\Users\opilane\Desktop>git clone S:\TARpv22git\tarkvaraSonavara
+Cloning into 'tarkvaraSonavara'...
+fatal: 'S:\TARpv22git\tarkvaraSonavara' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\opilane\Desktop>git clone S:\TARpv22git\tarkvaraSonavara
+Cloning into 'tarkvaraSonavara'...
+fatal: 'S:\TARpv22git\tarkvaraSonavara' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\opilane\Desktop>git clone S:\TARpv22git\tarkvaraSonavara
+Cloning into 'tarkvaraSonavara'...
+done.
+
+C:\Users\opilane\Desktop>git checkout Veronika
+error: pathspec 'Veronika' did not match any file(s) known to git
+
+C:\Users\opilane\Desktop>git checkout VeronikaM
+error: pathspec 'VeronikaM' did not match any file(s) known to git
+
+C:\Users\opilane\Desktop>git checkout Veronika
+error: pathspec 'Veronika' did not match any file(s) known to git
+
+C:\Users\opilane\Desktop>cd tarkvaraSonavara
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git checkout Veronika
+Switched to a new branch 'Veronika'
+branch 'Veronika' set up to track 'origin/Veronika'.
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m "esimesed kolm sõnad on lisatud"
+On branch Veronika
+Your branch is up to date with 'origin/Veronika'.
+
+nothing to commit, working tree clean
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git checkout Veronika
+Already on 'Veronika'
+Your branch is up to date with 'origin/Veronika'.
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m "esimesed kolm sõnad on lisatud"
+On branch Veronika
+Your branch is up to date with 'origin/Veronika'.
+
+nothing to commit, working tree clean
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git add .
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m "esimesed kolm sõnad on lisatud"
+On branch Veronika
+Your branch is up to date with 'origin/Veronika'.
+
+nothing to commit, working tree clean
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m "esimesed kolm sõnad on lisatud"
+On branch Veronika
+Your branch is up to date with 'origin/Veronika'.
+
+nothing to commit, working tree clean
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m "esimesed kolm sõnad on lisatud"
+[Veronika 9a9f3ce] esimesed kolm sõnad on lisatud
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m " sõnad diagrammidest  on lisatud"
+[Veronika 7a25a54]  sõnad diagrammidest  on lisatud
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m " sõnad seosest ja olevist  on lisatud"
+[Veronika 433c307]  sõnad seosest ja olevist  on lisatud
+ 1 file changed, 3 insertions(+)
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m "lihtne märge"
+On branch Veronika
+Your branch is ahead of 'origin/Veronika' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m "lihtne märge"
+[Veronika c808205] lihtne märge
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git commit -a -m "viimased sõnad"
+[Veronika 9d15041] viimased sõnad
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>git push
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (15/15), 1.79 KiB | 918.00 KiB/s, done.
+Total 15 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: warning: ignoring broken ref refs/heads/AleksandrAL
+To S:\TARpv22git\tarkvaraSonavara
+   adf8ad0..9d15041  Veronika -> Veronika
+
+C:\Users\opilane\Desktop\tarkvaraSonavara>
