@@ -154,3 +154,241 @@ To S:\TARpv22git\tarkvaraSonavara
    adf8ad0..9d15041  Veronika -> Veronika
 
 C:\Users\opilane\Desktop\tarkvaraSonavara>
+--------------------------------------------------------
+
+
+C:\Users\opilane>cd desktop
+
+C:\Users\opilane\Desktop>git config  --global user.name "Veronika Milovzorova"
+
+C:\Users\opilane\Desktop>git config  --global user.email "veronika.milovzorova@gmail.com"
+
+C:\Users\opilane\Desktop>git clone https://github.com/lkuca/Toolid-viimane-projekt.git
+Cloning into 'Toolid-viimane-projekt'...
+remote: Enumerating objects: 214, done.
+remote: Counting objects: 100% (113/113), done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 214 (delta 71), reused 0 (delta 0), pack-reused 101
+Receiving objects: 100% (214/214), 3.93 MiB | 9.30 MiB/s, done.
+Resolving deltas: 100% (107/107), done.
+
+C:\Users\opilane\Desktop>git checkout -b VeronikaM
+fatal: a branch named 'VeronikaM' already exists
+
+C:\Users\opilane\Desktop>git checkout -b VeronikaMil
+Switched to a new branch 'VeronikaMil'
+
+C:\Users\opilane\Desktop>cd Toolid-viimane-projekt.git
+The system cannot find the path specified.
+
+C:\Users\opilane\Desktop>cd Toolid-viimane-projekt
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git add .
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git commit -a -m "esimene commit"
+[main 57df0a4] esimene commit
+ 6 files changed, 50 insertions(+), 1 deletion(-)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/Toolid-viimane-projekt.iml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/php.xml
+ create mode 100644 .idea/vcs.xml
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push
+info: please complete authentication in your browser...
+remote: Permission to lkuca/Toolid-viimane-projekt.git denied to veronikamilovzorova.
+fatal: unable to access 'https://github.com/lkuca/Toolid-viimane-projekt.git/': The requested URL returned error: 403
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push
+info: please complete authentication in your browser...
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.36 KiB | 1.36 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/lkuca/Toolid-viimane-projekt.git
+   9e718ba..57df0a4  main -> main
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git add .
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git commit -a -m "olen muutnud background lehel table1"
+[main f9d03d4] olen muutnud background lehel table1
+ 4 files changed, 6 insertions(+), 6 deletions(-)
+ create mode 100644 stul.jpg
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push
+To https://github.com/lkuca/Toolid-viimane-projekt.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/lkuca/Toolid-viimane-projekt.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git commit -a -m "esimene commit"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git ctatus
+git: 'ctatus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git checkout VeronikaMil
+error: pathspec 'VeronikaMil' did not match any file(s) known to git
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git checkout -b VeronikaMil
+Switched to a new branch 'VeronikaMil'
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git status
+On branch VeronikaMil
+nothing to commit, working tree clean
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git add .
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git commit -a -m "muutsin background lehel table1!
+[VeronikaMil 7665bb6] muutsin background lehel table1!
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push
+fatal: The current branch VeronikaMil has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin VeronikaMil
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push origin VeronikaMil
+Enumerating objects: 231, done.
+Counting objects: 100% (231/231), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (105/105), done.
+Writing objects: 100% (231/231), 3.94 MiB | 2.87 MiB/s, done.
+Total 231 (delta 113), reused 212 (delta 107), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (113/113), done.
+remote:
+remote: Create a pull request for 'VeronikaMil' on GitHub by visiting:
+remote:      https://github.com/lkuca/Toolid-viimane-projekt/pull/new/VeronikaMil
+remote:
+To https://github.com/lkuca/Toolid-viimane-projekt.git
+ * [new branch]      VeronikaMil -> VeronikaMil
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git add .
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git commit -a -m "muutsin style.css failis värvid"
+[VeronikaMil c10f68c] muutsin style.css failis v├żrvid
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push origin VeronikaMil
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 364 bytes | 364.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/lkuca/Toolid-viimane-projekt.git
+   7665bb6..c10f68c  VeronikaMil -> VeronikaMil
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git add .
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git commit -a -m "Kustutasin ühe backgroundi pilti"
+[VeronikaMil e1063f0] Kustutasin ├╝he backgroundi pilti
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 office-chair-spin.gif
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push origin VeronikaMil
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 257 bytes | 257.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/lkuca/Toolid-viimane-projekt.git
+   c10f68c..e1063f0  VeronikaMil -> VeronikaMil
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git add .
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git commit -a -m "muutsin table1.php  failis muutujate nimed"
+[VeronikaMil 3082f26] muutsin table1.php  failis muutujate nimed
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push origin VeronikaMil
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 370 bytes | 370.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/lkuca/Toolid-viimane-projekt.git
+   e1063f0..3082f26  VeronikaMil -> VeronikaMil
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git add .
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git commit -a -m "lehel table3 paigaldasin label tere: admin ülevasakule küljesse"
+[VeronikaMil bd7169b] lehel table3 paigaldasin label tere: admin ├╝levasakule k├╝ljesse
+ 1 file changed, 13 insertions(+)
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push origin VeronikaMil
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 604 bytes | 604.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/lkuca/Toolid-viimane-projekt.git
+   3082f26..bd7169b  VeronikaMil -> VeronikaMil
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git add .
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git commit -a -m "Muutsin table1.php fail eesti keelest inglise keeles"
+[VeronikaMil 281c188] Muutsin table1.php fail eesti keelest inglise keeles
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>git push origin VeronikaMil
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 445 bytes | 445.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/lkuca/Toolid-viimane-projekt.git
+   bd7169b..281c188  VeronikaMil -> VeronikaMil
+
+C:\Users\opilane\Desktop\Toolid-viimane-projekt>
+
+
+
+
+
+
+
+
+
+
